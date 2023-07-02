@@ -1,30 +1,30 @@
-# Дипломная работа “Облачное хранилище”
+# Diploma thesis "Cloud storage"
 
-## Описание проекта
-Разработанный ервис предоставляет с обой REST интерфейс для возможности загрузки файлов и вывода списка уже загруженных файлов пользователя.
-Сервис обслуживает авторизованные запросы. Заранее подготовленное веб-приложение (FRONT) подключается к разработанному сервису без доработок, а также использовать функционал FRONT для авторизации, загрузки и вывода списка файлов пользователя.
+## Project description
+The developed service provides a REST interface for uploading files and displaying a list of files already uploaded by the user.
+The service serves authorised requests. The pre-built web application (FRONT) connects to the developed service without any modifications, and uses the FRONT functionality to authorise, upload and list the user's files.
 
-## Функции сервиса
-1. Вывод списка файлов
-2. Добавление файла
-3. Удаление файла
-4. Авторизация
+## Service functions
+1. File list display
+2. File upload
+3. File Delete
+4. Authorisation
 
-## Описание и запуск FRONT
-1. Установить nodejs (версия не ниже 19.7.0) на компьютер следуя инструкции (https://nodejs.org/ru/download/).
-2. Скачать FRONT(https://github.com/netology-code/jd-homeworks/blob/master/diploma/netology-diplom-frontend) (JavaScript)
-3. Перейти в папку FRONT приложения и все команды для запуска выполнять из нее.
-4. Следуя описанию README.md FRONT проекта запустить nodejs приложение (npm install, npm run serve).
-5. Можно задать url для вызова своего backend сервиса:
-    5.1. В файле `.env` FRONT (находится в корне проекта) приложения нужно изменить url до backend.
-    5.2. Пересобрать и запустить FRONT снова: `npm run build`
-    5.3. Измененный `url` сохранится для следующих запусков.
+## Description and launch of FRONT
+1. Install nodejs (version 19.7.0 or later) on your computer following the instructions (https://nodejs.org/ru/download/).
+2. Download FRONT(https://github.com/netology-code/jd-homeworks/blob/master/diploma/netology-diplom-frontend) (JavaScript)
+3. Go to the FRONT application folder and run all commands from it.
+4. Follow the README.md description of the FRONT project to launch the nodejs application (npm install, npm run serve).
+5. You can specify the url to call your backend service:
+    5.1. In the `.env` FRONT file (located in the root of the project) of the application, change the url to backend.
+    5.2. Rebuild and run FRONT again: `npm run build`.
+    5.3 The changed `url` will be saved for next runs.
 
-## Запуск клиентской и серверной частей:
-1. FRONT запускается на порте 8081 и доступен по url в браузере http://localhost:8081
-2. Для запуска приложения необходимо выполнить команду docker compose up.
+## Running the client and server parts:
+1. FRONT runs on port 8081 and is accessible by url in the browser http://localhost:8081
+2. The docker compose up command must be executed to start the application.
 
-## Варианты имени пользователя и пароля:
+## User name and password options:
 1. user / 123
 2. user2 / 1234
 
