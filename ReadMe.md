@@ -7,7 +7,7 @@ The service serves authorised requests. The pre-built web application (FRONT) co
 ## Service functions
 1. File list display
 2. File upload
-3. File Delete
+3. File delete
 4. Authorisation
 
 ## Description and launch of FRONT
